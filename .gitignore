@@ -1,25 +1,55 @@
-# Python cache
+# Byte-compiled / optimized
 __pycache__/
-*.pyc
-*.pyo
+*.py[codz]
+*$py.class
 
 # Virtual environments
-venv/
 .venv/
+venv/
+test_env/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Notebook checkpoints
+# Environment variables
+.env
+.envrc
+
+# Jupyter
 .ipynb_checkpoints/
 
-# OS junk
-.DS_Store
-Thumbs.db
-
-# Streamlit cache
+# Streamlit / app cache
 .streamlit/
 
 # Logs
 *.log
 
-# Large datasets (optional)
-data/train.csv
-data/test.csv
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+MANIFEST
+
+# Type checker / test cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VS Code (optional)
+.vscode/
+
+# Data (OPTIONAL)
+# If you DO NOT want to upload datasets, keep this:
+# data/
+
+# If you only want to ignore train/test, use these instead (uncomment and remove 'data/' above):
+# data/train.csv
+# data/test.csv
